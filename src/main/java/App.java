@@ -27,8 +27,8 @@ public class App {
         badUser.setDebt("123");
 
         Admin admin = new Admin();
-        admin.setName("Bad");
-        admin.setLogin("bad");
+        admin.setName("Admin");
+        admin.setLogin("admin");
         admin.setPassword("123");
 
         entityManager.persist(user);

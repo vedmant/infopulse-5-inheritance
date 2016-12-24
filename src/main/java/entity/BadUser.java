@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 /**
  * Entity inheritance example
  */
-@Entity
+@Entity(name = "bad_users")
 @DiscriminatorValue(value = "bad_user")
 public class BadUser extends User {
 
